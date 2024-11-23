@@ -3,24 +3,24 @@
 let myDate = new Date()
 console.log(myDate.toString());
 
-console.log(myDate.toISOString());
-console.log(myDate.toJSON());
-console.log(myDate.toLocaleDateString());
-console.log(myDate.toLocaleString());
+//console.log(myDate.toISOString());
+//console.log(myDate.toJSON());
+//console.log(myDate.toLocaleDateString());
+//console.log(myDate.toLocaleString());
 
-console.log(typeof myDate);
+//console.log(typeof myDate);
 
 
 // let myCreateDate =new Date(2024, 0, 23)
 // let myCreateDate =new Date(2024, 0, 23)
 // let myCreateDate =new Date(2024, 0, 4)
 
-let myCreateDate = new  Date("01-14-2024")
+//let myCreateDate = new  Date("01-14-2024")
 
 // console.log(myCreateDate.toDateString());
 // console.log(myCreateDate.toISOString());
 // console.log(myCreateDate.toJSON());
-console.log(myCreateDate.toLocaleString());
+//console.log(myCreateDate.toLocaleString());
 
 
 
@@ -38,4 +38,15 @@ console.log(newDate);
 // console.log(newDate.getDay());
 // console.log(newDate.getUTCSeconds());
 // console.log(newDate.getMilliseconds());
+
+console.log(newDate.getMonth()+1);
+console.log(newDate.getDay());
+
+//`${(newDate.getDay).getDay()} and the time`
+
+newDate.toLocaleDateString('default',{
+    weekday:"long"
+    
+})
+
 

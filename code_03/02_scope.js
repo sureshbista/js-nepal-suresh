@@ -11,11 +11,46 @@ if(true){
 // for(let i=0; i<Array.length;++){
 //     const element= array[i];
 // }
-
-
-
-
-console.log(a);
+// console.log(a);
 // console.log(b);
 // console.log(c);
 
+function one(){
+    const username = "suresh"
+
+    function two(){
+        const website = "javascript"
+        console.log(username);
+    }
+    // console.log(website);
+    two()
+    
+}
+// one()
+
+if(true){
+    const username = "suresh"
+     
+    if(username === "suresh"){
+        const website = "javascript"
+        console.log(username + website);
+    }
+    // console.log(website);
+
+}
+// console.log(username);
+
+
+//++++++++++++++++++++++++insteresitng +++++++++++++++++++++
+console.log(addone(5));
+function addone(num){
+    return num +1
+
+}
+
+
+const addTwo = function(num){//Experation
+    return num +2
+}
+
+addTwo(5)
